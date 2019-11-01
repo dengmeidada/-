@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>澳式酪梨早餐盤</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	
+	<link rel="stylesheet" type="text/css" href="style/slick.css">
+	<link rel="stylesheet" type="text/css" href="style/slick-theme.css">
+
+	<link rel="stylesheet" href="style/style.test.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/all.js"></script>
+
+     <style type="text/css">
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      /*opacity: .2;*/
+    }
+    
+    /*.slick-active {
+      opacity: .5;
+    }*/
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+
+
+
+
+</head>
+<body>
+  <input type="checkbox" name="" id="menu_control">
+	
+	<div class="header">
+		<div class="navbox">
+			<h1 class="logo">
+				<a href="index.html"><img src="img/logo.png"></a>
+					
+			</h1>
+
+			<label for="menu_control" class="menu_btn">
+				<span class="line1"></span>
+				<span class="line2"></span>
+				<span class="line3"></span>
+			</label>
+
+			<nav>
+				<a class="notHover" href="menu.html">精選菜單</a>
+				<a class="haveHover" href="conact.html">聯絡資訊</a>
+				<a class="haveHover" href="about.html">關於我們</a>
+				<a class="haveHover" href="news.html">最新消息</a>
+				<a class="haveHover" href="order.html">線上訂位</a>
+				<a class="haveHover" href="#">餐車</a>
+				<a class="haveHover" href="member.html">會員專區</a>
+			</nav>
+		</div>	
+	</div>
+				
+		
+	<!---- banner區 ---->
+	<div class="menubanner">
+      <div class="bannertext">
+      <h1>精選菜單</h1>
+      <!-- <span class="menuline"></span> -->
+      <p>menu</p></div>
+    </div>
+	<div class="smallNav">
+		<div class="container">
+			<ul>
+				<li><a href="menu.html#brunch" title="">早午餐</a></li>
+				<li><a href="menu.html#panini" title="">帕尼尼</a></li>
+				<li><a href="menu.html#pie" title="">肉派</a></li>
+				<li><a href="menu.html#bowl" title="">莓果碗</a></li>
+				<li><a href="menu.html#dessert" title="">甜點</a></li>
+				<li><a href="menu.html#drink" title="">飲品</a></li>		
+			</ul>
+		</div>
+	</div>
+
+	<div class="menucontent">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-12 col-lg-6">
+						<div class="item">
+							<img class="menuinimg" src="img/menu.jpg">
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-6">
+						<div class="item">
+							<h3>澳式酪梨早餐盤</h3>
+							<h5>Avocado Breakfast Plate</h5>
+							<p class="space"></p>
+							<div class="introduction">
+								<p class="intrconten1">內容物</p>
+								<p class="intrconten2">厚切酸種麵包、半顆酪梨、香炒洋菇、炒蛋、芝麻葉沙拉、慢烤聖女蕃茄、香煎哈嚕米起司</p>
+								<p class="kcal">486大卡/ 熱量</p>
+								<p class="egg">蛋奶素食者可食用</p>
+								<p class="price">NT250</p>
+								<p class="space"></p>
+							</div>
+							<ul class="btn-numbox">
+								<li><span class="number"></span></li>
+								<li>
+									<ul class="count">
+										<li><span id="num-jian" class="num-jian">-</span></li>
+										<li><input type="text" class="input-num" id="input-num" value="1" ></li>
+										<li><span id="num-jia" class="num-jia">+</span></li>
+									</ul>
+							</li>
+						
+								<div class="shop">
+									<a href="">加入餐車</a>
+								</div>
+							</ul>
+						
+						
+						</div>
+					</div>	
+					
+					
+					
+					
+			</div>
+	</div>
+	<!--播放區-->
+	<div class="container pictext">
+		<p>為您推薦</p>
+	</div>
+	<section class="variable slider">
+	
+    <div>
+      <a href=""><img src="img/area1.jpg">
+        <p>BOBO早餐</p>
+        <p>BOBO Breakfast</p>
+				<p>NT250</p>
+      </a>
+    </div>
+    <div>
+      <a href=""><img src="img/brunch8.jpg">
+      	<p>皇后大早餐</p>
+        <p>Queen's breakfast</p>
+				<p>NT520</p>
+      </a>
+      
+    </div>
+    <div>
+      <a href=""><img src="img/panini1.jpg">
+      	<p>火腿帕尼尼</p>
+        <p>Ham Panini</p>
+				<p>NT90</p>
+      </a>
+    </div>
+    <div>
+      <a href=""><img src="img/bowl3.jpg">
+      	<p>木里斯果麥</p>
+				<p>Bircher Muesli</p>
+				<p>NT200</p>
+      </a>
+    </div>
+    <div>
+      <a href=""><img src="img/cake3.jpg">
+      	<p>西瓜蛋糕</p>
+				<p>Watermelon Cake</p>
+				<p>NT150</p>
+      </a>
+    </div>
+    <div>
+      <a href=""><img src="img/dinik1.jpg">
+      	<p>巴西莓果昔</p>
+				<p>Acai Antioxidant</p>
+				<p>NT120</p>
+      </a>
+    </div>
+  </section>
+
+	<!-- gotop區 -->
+    <div class="gotop">
+        <a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    </div>
+   <!-- 頁尾區 -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="item">
+            <p>營業時間:AM7:00至PM5:00 公休日:星期一<br>聯絡地址:桃園市中壢區中大路300號<br>電話:0975001001</p>
+                
+          </div>
+        </div>
+        <div class="item  meditem">
+          <ul class="med">
+            <li class="media1"><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                  
+            <li class="media3"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          </ul>               
+        </div>  
+        <div class="item  useitem">
+          <ul class="use">
+            <li><a href="#">使用條款</a></li>
+            <li><a href="#">隱私權保護聲明</a></li>
+            <li><a href="#">常見問題</a></li>
+          </ul>
+        </div>                
+      </div>            
+    </div>
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+ <!-- 數量 -->
+ <script>
+    var num_jia = document.getElementById("num-jia");
+        var num_jian = document.getElementById("num-jian");
+        var input_num = document.getElementById("input-num");
+
+        num_jia.onclick = function() {
+
+            input_num.value = parseInt(input_num.value) + 1;
+        }
+
+        num_jian.onclick = function() {
+
+            if(input_num.value <= 1) {
+                input_num.value = 1;
+            } else {
+
+                input_num.value = parseInt(input_num.value) - 1;
+            }
+
+        }
+ </script>
+
+<!-- 播放區 -->
+  <script type="text/javascript">
+           $(document).on('ready', function() { 
+      $(".variable").slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 1000, 
+        responsive: [
+         
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            infinite: false,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 799,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+      });
+      
+    });
+
+</script>
+
+	
+</body>
+</html>

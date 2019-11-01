@@ -1,0 +1,477 @@
+@import url(reset.css);
+
+/*==== 內容區塊 ====*/
+.content{
+	
+}
+
+
+/*== 區塊1 ==*/
+.content .aboutbox1{
+	
+	width: 1024px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.content .aboutbox1 .happy{
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	color:#571c01;
+
+}
+
+.content .orangeline1{
+	display: block;
+	width: 64px;
+	height: 2px;
+	background-color: #ff8b38;
+	margin-left: 45px;
+	margin-bottom: 20px;
+
+
+}
+
+
+.content .aboutimg1{
+	background-image: url('../img/about1.jpg');
+	width: 53.33333%;
+    height: 0;
+    padding-bottom: 30%;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+}
+
+.content .aboutimg1 .intr1{
+	text-align: center;
+	font-size: 24px;
+	color: #eee;
+	padding-top:150px; 
+    
+}
+
+.content .aboutimg1 .intr1:hover{
+	opacity: 0;
+	 
+    
+}
+.content .aboutimg1 .intr2{
+	text-align: center;
+	font-size: 18px;
+	color: #ccc;
+	padding-top:10px; 
+
+}
+
+.content .aboutimg1hover{
+	background-color: rgba(11, 11, 11, 1);
+	width: 640px;
+	height: 230px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	padding-top: 130px;
+
+	text-align: center;
+}
+
+.content .aboutimg1hover:hover{
+	opacity: 1;
+	transition: all 1s 0s ease;
+
+	
+}
+
+.content .aboutimg1hover .hover{
+	color: #ccc;
+}
+
+.content .about2{
+	background-image: url('../img/about3.jpg');
+	width: 384px;
+	height: 509px;
+	float: right;
+	position: relative;
+}
+
+.content .about2 .intr3{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 230px;
+	color: #fff;
+
+}
+
+.content  .intr4{
+	text-align: center;
+	font-size: 18px;
+	color: #ccc;
+	padding-top:10px; 
+
+}
+
+.content .aboutbox{
+	background-color: rgba(86, 76, 69, 1);
+	width: 384px;
+	height: 509px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	
+}
+
+.content .aboutbox:hover{
+	opacity: 1;
+	transition: all 1s 0s ease;
+	
+}
+.content .about2 .hover2{
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+
+
+
+
+
+.content .about3{
+	clear: both;
+	background-color: #333;
+	background-image: url('../img/one3.jpg');
+	width: 1024px;
+	height: 416px;
+	position: relative;
+}
+
+.content .about3 .one1{
+	color: #ccc;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 190px;
+}
+
+.content  .about3 .one2{
+	text-align: center;
+	font-size: 18px;
+	color: #bbb;
+	padding-top:10px; 
+
+}
+
+.content .about3 .one3{
+
+	background-color: rgba(255, 170, 59, 1);
+	width: 1024px;
+	height: 216px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	text-align: center;
+	padding-top: 200px;
+	color: #fff;
+
+
+}
+
+.content .about3 .one3:hover{
+
+	
+	opacity: 1;
+	transition: all 1s 0s ease;
+
+}
+
+
+
+.content .about4{
+	background-color: #4E2B1B;
+	width: 580px;
+	height: 150px;
+	color: #ccc;
+	padding: 80px 30px 0;
+
+	position: absolute;
+    top: 419px;
+    left: 0;
+}
+
+
+
+
+/*== 區塊2 ==*/
+.content .aboutbox2{
+	overflow: hidden;
+	position: relative;
+
+}
+
+
+.content .aboutbox2 .persist{
+	
+	font-size: 30px;
+	padding-top: 105px;
+	padding-bottom: 10px;
+	text-align: right;
+	color:#571c01;
+	margin-right: 20px;
+}
+
+
+.content .orangeline2{
+	display: block;
+	width: 64px;
+	height: 2px;
+	background-color: #ff8b38;
+	margin-left: 900px;
+	margin-bottom: 20px;
+
+
+}
+
+.content .aboutbox2 .about5{
+	background-color: #4E2B1B;
+    width: 580px;
+    height: 130px;
+    color: #ccc;
+    padding: 100px 30px 0;
+    float: right;
+
+
+}
+
+.content .aboutbox2 .imgabc{
+	
+	position: relative;
+}
+
+.content .aboutbox2 .perimg{
+	background-image: url('../img/about/perimg1.png');
+	width: 384px;
+	height: 451px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 177px;
+	left: 0px;
+	
+	
+	
+}
+
+.content .aboutbox2 .perbox{
+	background-color: #193230;
+	width: 384px;
+	height: 180px;
+	position: absolute;
+	top: 177px;
+	left: 0;
+	opacity: 0;
+	text-align: center;
+	padding-top: 220px;
+	color: #ccc;
+
+}
+
+.content .aboutbox2 .perbox:hover{
+	opacity: 1;
+	transition: all 1s 0s ease;
+	
+}
+
+
+.content .aboutbox2 .about6{	
+	background-image: url('../img/about/about6.jpg');
+	width: 1024px;
+	height: 469px;
+	background-repeat: no-repeat;
+	clear: both;
+	position: relative;
+		
+	
+}
+
+.content .aboutbox2 .about6 .persist1{
+	text-align: center;
+	padding-top: 200px;
+	font-size: 24px;
+	color: #ccc;
+	
+}
+
+.content .aboutbox2 .about6 .persist2{
+	text-align: center;
+	font-size: 18px;
+	color: #bbb;
+	padding-top:10px; 
+
+}
+
+.content .aboutbox2 .about6 .persist3{
+	background-color: #333;
+	width: 1024px;
+	height: 219px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	opacity: 0;
+	text-align: center;
+	padding-top: 210px;
+	color: #ccc;
+	
+}
+
+.content  .about6 .persist3:hover{
+	opacity: 1;
+	transition: all 1s 0s ease;
+}
+
+.content .clear{
+	
+}
+
+
+
+/*== 區塊3 ==*/
+.content .food{
+  
+}
+
+.content .enjoy{
+	font-size: 30px;
+	padding-top: 85px;
+	
+	text-align: center;
+	color:#571c01;
+	margin-right: 20px;
+}
+
+.content .orangeline3{
+	display: block;
+	width: 64px;
+	height: 2px;
+	background-color: #ff8b38;
+	margin: auto;
+	margin-top: 10px;
+	
+
+
+}
+
+.content .about8{
+	text-align: center;
+	padding-bottom: 30px;
+	color: #333;
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+.content .about9{
+	overflow: hidden;
+	background-color: #E2E1E0;
+}
+.content .star1{
+	background-color:#89422E ;
+	width: 400px;
+	height: 180px;
+	font-size: 20px;
+	padding-top: 120px;
+	text-align: center;
+	color: #ccc;
+	float: left;
+	
+}
+
+.content .star2{
+	background-color: #D3C2AC;
+	width: 524px;
+	height: 180px;
+	padding: 120px 50px 0;
+	float: right;
+	color: #571c01;
+
+}
+
+.about9 h5{
+	clear: both;
+	text-align: center;
+	font-size: 18px;
+	padding-top: 60px;
+	color: #333;
+}
+
+.about9 .star3{
+	text-align: center;
+}
+
+
+.starbox{
+	display: inline-block;
+	padding: 50px 0 100px;
+}
+
+.starbox .starimg1{
+	background-image: url('../img/about/starimg1.jpg');
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+
+.starbox .starimg2{
+	background-image: url('../img/about/starimg2.jpg');
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+
+.starbox .starimg3{
+	background-image: url('../img/about/starimg3.jpg');
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+
+.starbox .starimg4{
+	background-image: url('../img/about/starimg4.jpg');
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+
+.starbox .starimg5{
+	background-image: url('../img/about/starimg5.jpg');
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+
+
+
+
+
+.starbox h6{
+	padding-top: 20px;
+	font-size: 14px;
+	color: #333;
+}
+
+
+
+

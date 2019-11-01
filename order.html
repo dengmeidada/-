@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>線上訂位</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+	<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="js/all.js" type="text/javascript"></script>
+	
+</head>
+<body>
+		<input type="checkbox" name="" id="menu_control">
+	
+        <div class="header">
+            <div class="navbox">
+                <h1 class="logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                        
+                </h1>
+    
+                <label for="menu_control" class="menu_btn">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </label>
+    
+                <nav>
+                    <a class="haveHover" href="menu.html">精選菜單</a>
+                    <a class="haveHover" href="conact.html">聯絡資訊</a>
+                    <a class="haveHover" href="about.html">關於我們</a>
+                    <a class="haveHover" href="news.html">最新消息</a>
+                    <a class="notHover" href="order.html">線上訂位</a>
+                    <a class="haveHover" href="#">餐車</a>
+                    <a class="haveHover" href="member.html">會員專區</a>
+                </nav>
+            </div>	
+        </div>
+        <!---- banner區 ---->
+        <div class="orderBanner">
+                <div class="bannertext">
+                <h1>線上訂位</h1>
+                <!-- <span class="menuline"></span> -->
+                <p>booking</p>
+            </div>
+         </div>
+	
+	<div class="container bookingbox">
+		<div class="row">
+			<div class="col-12">
+				<div class="item">
+		 		<p class="resername"><b>訂位資料填寫</b></p>
+		 		<span class="orangeline"></span>
+		 		<form action="backend.php" method="GET">
+                   <div class="revbox">
+                   <div class="allbox">                    
+						<div class="people">
+						<br><p class="numpeople">用餐人數</p><br>
+						<select class="set" name="peoset" id="peoset" required >
+										  	 		
+							<option value="1">1位大人</option>
+							<option value="2">2位大人</option>
+							<option value="3">3位大人</option>
+							<option value="4">4位大人</option>
+							<option value="5">5位大人</option>
+							<option value="6">6位大人</option>
+							<option value="7">7位大人</option>
+							<option value="8">8位大人</option>
+							<option value="9">9位大人</option>
+							<option value="10">10位大人</option>
+							<option value="11">11位大人</option>
+							<option value="12">12位大人</option>
+							<option value="13">13位大人</option>
+							<option value="14">14位大人</option>
+						</select>
+		<br>
+		<br>
+						<select class="set" name="babyset" id="babyset" required >
+							<option value="0">0位小孩</option>
+							<option value="1">1位小孩</option>
+							<option value="2">2位小孩</option>
+							<option value="3">3位小孩</option>
+							<option value="4">4位小孩</option>
+							<option value="5">5位小孩</option>
+							<option value="6">6位小孩</option>
+							<option value="7">7位小孩</option>
+							<option value="8">8位小孩</option>
+							<option value="9">9位小孩</option>
+							<option value="10">10位小孩</option>
+							<option value="11">11位小孩</option>
+							<option value="12">12位小孩</option>
+							<option value="13">13位小孩</option>
+							<option value="14">14位小孩</option>
+						</select>
+					</div><br>
+ 					<div class="timebox">
+ 						<label for="bookdate">用餐時間</label><br><br>
+ 						<input class="date" type="date" id="bookdate" placeholder="2019-08-11" required><br><br>
+ 						<select class="set" name="hrset" id="hrset" style="  width:100px;">										  			
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>										  			
+						</select>&nbsp; :&nbsp;
+						<select class="set" name="minset" id="minset" style=" width:100px;" required>										  			
+							<option value="00">00</option>
+							<option value="15">15</option>
+							<option value="30">30</option>
+							<option value="45">45</option>
+										  			
+										  			
+							</select>
+
+ 						</div>
+					</div> 
+					
+					<div class="allbox2">
+                       <p class="youname"> 您的姓名*: <input class="set2" type="text" name="" id=""  placeholder="ex:王小明" required> </p>
+                       <br>
+                       <p>性別: 
+                           男<input type="radio" name="sex" id="" value="male" checked>
+                           女<input type="radio" name="sex" value="female" >
+                           其他<input type="radio" name="sex" value="other">
+                       </p>
+                       <br>
+
+                       <p> 電子信箱*: <input class="set2" type="text" name="" id="" placeholder="ex:bobo_brunch@gmail.com" required> </p> <br><p>聯絡電話*: <input class="set2" type="text" name="" id="" placeholder="ex:0975001001" minlength="9"  maxlength="9" size="20"> </p>
+                       <br>
+                        <p>
+                         <input type="checkbox" name="rev" id="" value="" >將預約資訊儲存在此瀏覽器
+                         
+                        </p>
+                        <br>
+                         <p>
+                           備註
+                           <textarea class="mes" name="message" id="" placeholder="有任何特殊需求嗎?可以寫在這裡喔!(ex:過敏)" rows="10" contenteditable="true"></textarea>
+                         </p>
+                         <br>
+                         <p>
+                         <input type="checkbox" name="agree1" id="" value="" required>我已閱讀並同意 <a href="">隱私權條款</a>
+                         </p>
+                         <br>     
+
+						<p class="agreetext">
+                         <input type="checkbox" name="agree2" id="" value=""required >我已詳細閱讀並同意下述注意事項並願意遵守規定。<br>
+                         【訂位說明】<br>
+							<div class="textbox"><p class=".text">網路開放時間為：隔日~2個月內。<br>
+							網路訂位是否成功，可至「訂位紀錄」進行查詢。<br>
+							用餐當日訂位保留時間為10分鐘，請準時入席，逾時將取消訂位。<br>
+							網路訂位成功者，如未到場且未於線上或電話店家取消訂位，視同「訂位未到且未提前通知取消」；<br>
+							「訂位未到且未提前通知取消」次數達到三次，系統將取消您的網路訂位資格，<br>造成不便敬請見諒。<br></p></div>
+						<p>【人數變動】</p>							
+							<div class="textbox"><p class=".text">若用餐人數有變動，請於用餐前 1 日 21:30 <br>前至訂位系統上變更人數；若剩餘座位不足，<br>
+							則無法增加用餐人數，敬請見諒。<br></p>
+							
+						 </div>
+						 <p>【為提供最好的用餐經驗與品質，請詳閱上述訂位說明，感謝您的配合並期待您的光臨！】</p>
+                     	</p>
+                          
+                         <div class="nextbox"> 
+                         	<input class="insubmit" type="submit" value="下一頁，確認訂位資料">  
+                         </div>
+
+
+
+
+					</div>
+                   </div>
+		 		</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- gotop區 -->
+    <div class="gotop">
+		<a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+	</div>
+
+<!-- 頁尾區 -->
+    <div class="footer">
+    	<div class="container">
+    		<div class="row">
+    			<div class="item">
+    				<p>營業時間:AM7:00至PM5:00 公休日:星期一<br>聯絡地址:桃園市中壢區中大路300號<br>電話:0975001001</p>
+    						
+    			</div>
+    		</div>
+	    	<div class="item  meditem">
+	    		<ul class="med">
+	    			<li class="media1"><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+	    						
+	    			<li class="media3"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+	    		</ul>    						
+	    	</div>	
+	    	<div class="item  useitem">
+	    		<ul class="use">
+	    			<li><a href="#">使用條款</a></li>
+	    			<li><a href="#">隱私權保護聲明</a></li>
+	    			<li><a href="#">常見問題</a></li>
+	    		</ul>
+	    	</div>								
+    	</div>   					
+    </div>
+</body>
+</html>
